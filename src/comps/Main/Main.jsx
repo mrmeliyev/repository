@@ -8,6 +8,7 @@ import Section5 from '../Section5/Section5'
 function Main() {
     return (
         <main>
+            <h1>Hello World</h1>
             <Section1 />
             <Section2 />
             <Section3 />
