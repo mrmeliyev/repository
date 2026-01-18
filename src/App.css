@@ -1,0 +1,249 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 90px;
+}
+
+.btn {
+    background: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+section .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0;
+}
+
+.play {
+    background: rgb(240, 240, 240);
+    color: black;
+}
+.play span {
+    font-size: 38px;
+}
+.play:hover {
+    background: rgb(200, 200, 200);
+}
+
+.soc {
+    background: #39DB4A;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soc img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Section 1 */
+
+#sec1 .content .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#sec1 img {
+    width: 500px;
+    background: rgb(57, 219, 74);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+/* Section 2 */
+
+#sec2 .content {
+    flex-direction: column;
+    gap: 15px;
+}
+
+#sec2 .content .foods {
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec2 .content .food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background: white;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    padding: 30px 70px;
+}
+
+#sec2 .content .food img {
+    background: #C1F1C6;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Section 3 */
+
+#sec3 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+#sec3 img {
+    width: 200px;
+}
+
+#sec3 .content .ffoods{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec3 .content .ffoods {
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec3 .content .ffood {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    padding: 30px 70px;
+}
+
+#sec3 .content .ffood img {
+    background: #C1F1C6;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#sec3 .content .ffood .des {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Section 4 */
+
+#sec4 .content .chef {
+    width: 400px;
+    background: rgb(57, 219, 74);
+    border-radius: 75px;
+}
+
+#sec4 .content .profee {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec4 .content .pros {
+    position: relative;
+}
+
+#sec4 .content .pros img {
+    position: absolute;
+    width: 75px;
+}
+
+#sec4 .content .pros img:nth-child(2) {
+    left: 50px;
+}
+
+#sec4 .content .pros img:nth-child(1) {
+    left: 100px;
+}
+
+/* Section 5 */
+
+#sec5 .card img {
+    width: 50px;
+}
+
+#sec5 .cards {
+    width: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#sec5 .card {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+#sec5 .card p {
+    line-height: 22px;
+    font-size: 18px;
+    color: #90BD95;
+}
+
+/* Footer */
+
+footer nav {
+    width: 75%;
+}
+
+footer .infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foodi {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .foodi img {
+    width: 100px;
+}
+
+footer .foodi p {
+    width: 200px;
+}
+
+footer .info a {
+    color: #4A4A4A;
+    font-weight: 500;
+    font-size: 22px;
+}
