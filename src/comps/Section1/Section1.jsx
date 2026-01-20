@@ -3,6 +3,8 @@ import H1 from '../H1/H1'
 import P from '../P/P'
 import Button from '../Button.jsx/Button'
 
+import foood from '../../assets/foood.png'
+
 function Section1() {
     return (
         <section id='sec1'>
@@ -17,7 +19,7 @@ function Section1() {
                             <button className='play'><span className="material-symbols-outlined">play_arrow</span></button>
                         </div>
                     </div>
-                    <img src="/src/assets/foood.png" alt="" />
+                    <img src={foood} alt="" />
                 </div>
             </div>
         </section>

@@ -2,11 +2,13 @@ import React from 'react'
 import Info from '../Info/Info'
 import P from '../P/P'
 
+import logo from '../../assets/logo.png'
+
 function Infos() {
     return (
         <div className="infos">
             <div className="foodi">
-                <img src="/src/assets/logo.png" alt="" />
+                <img src={logo} alt="" />
                 <P text1={'Savor the artistry where every dish is a culinary masterpiece'}/>
             </div>
             <Info text={'Useful links'} t1={'About us'} t2={'Events'} t3={'Blogs'} t4={'FAQ'}/>
